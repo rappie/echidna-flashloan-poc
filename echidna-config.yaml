@@ -1,0 +1,23 @@
+initialize: etheno-log.json
+multi-abi: true
+
+testMode: assertion
+prefix: rappie_
+corpusDir: echidna-corpus
+
+# testLimit: 30000      # 30k
+# testLimit: 100000     # 100k
+# testLimit: 200000     # 200k
+# testLimit: 1000000    # 1mil
+# testLimit: 10000000   # 10mil
+# testLimit: 20000000   # 20mil
+testLimit: 100000000000
+# seqLen: 10
+seqLen: 2
+# deployer: "0x5409ed021d9299bf6814279a6a1411a7e866a631"
+# psender: "0x5409ed021d9299bf6814279a6a1411a7e866a631"
+# contractAddr: "0x5409ed021d9299bf6814279a6a1411a7e866a631" # owner
+# contractAddr: "0x6Ecbe1DB9EF729CBe972C83Fb886247691Fb6beb" # addr1
+
+# sender: ["0x6Ecbe1DB9EF729CBe972C83Fb886247691Fb6beb"]
+# deployContracts: [["0x6Ecbe1DB9EF729CBe972C83Fb886247691Fb6beb", "Sender"]]
